@@ -12,9 +12,9 @@ public class MainController {
     	return "index";
     }
     
-    @RequestMapping(value="/home", method = RequestMethod.GET)
+    @RequestMapping(value="/welcome", method = RequestMethod.GET)
     public String Home() {
-    	return "home";
+    	return "welcome";
     }
 
     @RequestMapping(value="/hello", method = RequestMethod.GET)
